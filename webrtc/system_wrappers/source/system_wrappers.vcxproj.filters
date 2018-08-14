@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="interface">
+      <UniqueIdentifier>{80f69c6d-71ad-4713-971b-bca1de8b3308}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{e3c9d982-f261-4ca6-b33b-7879b174e0ba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\interface\compile_assert_c.h">
+      <Filter>interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\interface\cpu_features_wrapper.h">
+      <Filter>interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\interface\cpu_info.h">
+      <Filter>interface</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cpu_features.cc">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -4,7 +4,6 @@
 *.dylib
 *.so
 *.VC.db
-*.filters
 *.VC.opendb
 
 WebRtcAudioTest.tlog

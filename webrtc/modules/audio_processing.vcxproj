@@ -321,12 +321,6 @@
     <ClCompile Include="audio_processing\utility\fft4g.c" />
     <ClCompile Include="audio_processing\utility\delay_estimator.c" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="audioproc_debug_proto.vcxproj">
-      <Project>{87580C1E-2775-D65D-BD49-CE46DD73F6C7}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />
 </Project>

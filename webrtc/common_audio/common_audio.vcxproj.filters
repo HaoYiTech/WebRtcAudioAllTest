@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="resampler">
+      <UniqueIdentifier>{22710670-3B14-8439-B380-77D8241D5A94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resampler\include">
+      <UniqueIdentifier>{57CA55B8-BCC5-4000-CE3A-58972F82E9CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vad">
+      <UniqueIdentifier>{C27688D7-253B-3537-3FAE-7871C2C97330}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vad\include">
+      <UniqueIdentifier>{57CA55B8-BCC5-4000-CE3A-58972F82E9CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="signal_processing">
+      <UniqueIdentifier>{EA9935C9-9016-26DD-0B04-5EEDE74A3343}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="signal_processing\include">
+      <UniqueIdentifier>{57CA55B8-BCC5-4000-CE3A-58972F82E9CB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resampler\include\resampler.h">
+      <Filter>resampler\include</Filter>
+    </ClInclude>
+    <ClCompile Include="vad\vad_filterbank.c">
+      <Filter>vad</Filter>
+    </ClCompile>
+    <ClInclude Include="vad\vad_filterbank.h">
+      <Filter>vad</Filter>
+    </ClInclude>
+    <ClInclude Include="vad\vad_sp.h">
+      <Filter>vad</Filter>
+    </ClInclude>
+    <ClCompile Include="vad\vad_gmm.c">
+      <Filter>vad</Filter>
+    </ClCompile>
+    <ClInclude Include="vad\vad_core.h">
+      <Filter>vad</Filter>
+    </ClInclude>
+    <ClInclude Include="vad\vad_gmm.h">
+      <Filter>vad</Filter>
+    </ClInclude>
+    <ClCompile Include="vad\vad_core.c">
+      <Filter>vad</Filter>
+    </ClCompile>
+    <ClCompile Include="vad\vad_sp.c">
+      <Filter>vad</Filter>
+    </ClCompile>
+    <ClCompile Include="vad\webrtc_vad.c">
+      <Filter>vad</Filter>
+    </ClCompile>
+    <ClInclude Include="vad\include\webrtc_vad.h">
+      <Filter>vad\include</Filter>
+    </ClInclude>
+    <ClInclude Include="signal_processing\resample_by_2_internal.h">
+      <Filter>signal_processing</Filter>
+    </ClInclude>
+    <ClCompile Include="signal_processing\spl_sqrt_floor.c">
+      <Filter>signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="signal_processing\resample_by_2_internal.c">
+      <Filter>signal_processing</Filter>
+    </ClCompile>
+    <ClInclude Include="signal_processing\complex_fft_tables.h">
+      <Filter>signal_processing</Filter>
+    </ClInclude>
+    <ClCompile Include="signal_processing\copy_set_operations.c">
+      <Filter>signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="signal_processing\division_operations.c">
+      <Filter>signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="signal_processing\get_scaling_square.c">
+      <Filter>signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="signal_processing\downsample_fast.c">
+      <Filter>signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="signal_processing\resample_fractional.c">
+      <Filter>signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="signal_processing\vector_scaling_operations.c">
+      <Filter>signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="signal_processing\energy.c">
+      <Filter>signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="signal_processing\refl_coef_to_lpc.c">
+      <Filter>signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="signal_processing\dot_product_with_scale.c">
+      <Filter>signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="signal_processing\real_fft.c">
+      <Filter>signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="signal_processing\resample.c">
+      <Filter>signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="signal_processing\cross_correlation.c">
+      <Filter>signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="signal_processing\complex_fft.c">
+      <Filter>signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="signal_processing\spl_sqrt.c">
+      <Filter>signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="signal_processing\resample_by_2.c">
+      <Filter>signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="signal_processing\complex_bit_reverse.c">
+      <Filter>signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="signal_processing\resample_48khz.c">
+      <Filter>signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="signal_processing\splitting_filter.c">
+      <Filter>signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="signal_processing\spl_init.c">
+      <Filter>signal_processing</Filter>
+    </ClCompile>
+    <ClInclude Include="signal_processing\include\real_fft.h">
+      <Filter>signal_processing\include</Filter>
+    </ClInclude>
+    <ClInclude Include="signal_processing\include\spl_inl.h">
+      <Filter>signal_processing\include</Filter>
+    </ClInclude>
+    <ClInclude Include="signal_processing\include\signal_processing_library.h">
+      <Filter>signal_processing\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="signal_processing\randomization_functions.c" />
+  </ItemGroup>
+</Project>
