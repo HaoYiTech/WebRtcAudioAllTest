@@ -210,9 +210,9 @@ int _tmain(int argc, _TCHAR* argv[])
 {
 	WebRtcAecTest();
 
-	WebRtcAgcTest("byby_8K_1C_16bit.pcm","byby_8K_1C_16bit_agc.pcm",8000);
+	//WebRtcAgcTest("byby_8K_1C_16bit.pcm","byby_8K_1C_16bit_agc.pcm",8000);
 
-	WebRtcNS32KSample("lhydd_1C_16bit_32K.PCM","lhydd_1C_16bit_32K_ns.pcm",32000,1);
+	//WebRtcNS32KSample("lhydd_1C_16bit_32K.PCM","lhydd_1C_16bit_32K_ns.pcm",32000,1);
 
 	printf("…˘“Ù‘ˆ“Ê£¨Ωµ‘ÎΩ· ¯...\n");
 
